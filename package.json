@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "dev": "tsnd --respawn --transpile-only src/server.ts",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
